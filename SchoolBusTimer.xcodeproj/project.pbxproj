@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76BCBEBC1A001B4F00260051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BCBEBB1A001B4F00260051 /* main.m */; };
+		76BCBEBF1A001B4F00260051 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BCBEBE1A001B4F00260051 /* AppDelegate.m */; };
+		76BCBEC21A001B4F00260051 /* SchoolBusTimer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76BCBEC01A001B4F00260051 /* SchoolBusTimer.xcdatamodeld */; };
+		76BCBEC51A001B4F00260051 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BCBEC41A001B4F00260051 /* ViewController.m */; };
+		76BCBEC81A001B4F00260051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BCBEC61A001B4F00260051 /* Main.storyboard */; };
+		76BCBECA1A001B4F00260051 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76BCBEC91A001B4F00260051 /* Images.xcassets */; };
+		76BCBECD1A001B4F00260051 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76BCBECB1A001B4F00260051 /* LaunchScreen.xib */; };
+		76BCBED91A001B4F00260051 /* SchoolBusTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BCBED81A001B4F00260051 /* SchoolBusTimerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76BCBED31A001B4F00260051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76BCBEAE1A001B4F00260051 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76BCBEB51A001B4F00260051;
+			remoteInfo = SchoolBusTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76BCBEB61A001B4F00260051 /* SchoolBusTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolBusTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76BCBEBA1A001B4F00260051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76BCBEBB1A001B4F00260051 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76BCBEBD1A001B4F00260051 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76BCBEBE1A001B4F00260051 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76BCBEC11A001B4F00260051 /* SchoolBusTimer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SchoolBusTimer.xcdatamodel; sourceTree = "<group>"; };
+		76BCBEC31A001B4F00260051 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76BCBEC41A001B4F00260051 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76BCBEC71A001B4F00260051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76BCBEC91A001B4F00260051 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		76BCBECC1A001B4F00260051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		76BCBED21A001B4F00260051 /* SchoolBusTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolBusTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76BCBED71A001B4F00260051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76BCBED81A001B4F00260051 /* SchoolBusTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolBusTimerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76BCBEB31A001B4F00260051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76BCBECF1A001B4F00260051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76BCBEAD1A001B4F00260051 = {
+			isa = PBXGroup;
+			children = (
+				76BCBEB81A001B4F00260051 /* SchoolBusTimer */,
+				76BCBED51A001B4F00260051 /* SchoolBusTimerTests */,
+				76BCBEB71A001B4F00260051 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76BCBEB71A001B4F00260051 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76BCBEB61A001B4F00260051 /* SchoolBusTimer.app */,
+				76BCBED21A001B4F00260051 /* SchoolBusTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76BCBEB81A001B4F00260051 /* SchoolBusTimer */ = {
+			isa = PBXGroup;
+			children = (
+				76BCBEBD1A001B4F00260051 /* AppDelegate.h */,
+				76BCBEBE1A001B4F00260051 /* AppDelegate.m */,
+				76BCBEC31A001B4F00260051 /* ViewController.h */,
+				76BCBEC41A001B4F00260051 /* ViewController.m */,
+				76BCBEC61A001B4F00260051 /* Main.storyboard */,
+				76BCBEC91A001B4F00260051 /* Images.xcassets */,
+				76BCBECB1A001B4F00260051 /* LaunchScreen.xib */,
+				76BCBEC01A001B4F00260051 /* SchoolBusTimer.xcdatamodeld */,
+				76BCBEB91A001B4F00260051 /* Supporting Files */,
+			);
+			path = SchoolBusTimer;
+			sourceTree = "<group>";
+		};
+		76BCBEB91A001B4F00260051 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76BCBEBA1A001B4F00260051 /* Info.plist */,
+				76BCBEBB1A001B4F00260051 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76BCBED51A001B4F00260051 /* SchoolBusTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				76BCBED81A001B4F00260051 /* SchoolBusTimerTests.m */,
+				76BCBED61A001B4F00260051 /* Supporting Files */,
+			);
+			path = SchoolBusTimerTests;
+			sourceTree = "<group>";
+		};
+		76BCBED61A001B4F00260051 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76BCBED71A001B4F00260051 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76BCBEB51A001B4F00260051 /* SchoolBusTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76BCBEDC1A001B4F00260051 /* Build configuration list for PBXNativeTarget "SchoolBusTimer" */;
+			buildPhases = (
+				76BCBEB21A001B4F00260051 /* Sources */,
+				76BCBEB31A001B4F00260051 /* Frameworks */,
+				76BCBEB41A001B4F00260051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchoolBusTimer;
+			productName = SchoolBusTimer;
+			productReference = 76BCBEB61A001B4F00260051 /* SchoolBusTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76BCBED11A001B4F00260051 /* SchoolBusTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76BCBEDF1A001B4F00260051 /* Build configuration list for PBXNativeTarget "SchoolBusTimerTests" */;
+			buildPhases = (
+				76BCBECE1A001B4F00260051 /* Sources */,
+				76BCBECF1A001B4F00260051 /* Frameworks */,
+				76BCBED01A001B4F00260051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76BCBED41A001B4F00260051 /* PBXTargetDependency */,
+			);
+			name = SchoolBusTimerTests;
+			productName = SchoolBusTimerTests;
+			productReference = 76BCBED21A001B4F00260051 /* SchoolBusTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76BCBEAE1A001B4F00260051 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Radul;
+				TargetAttributes = {
+					76BCBEB51A001B4F00260051 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					76BCBED11A001B4F00260051 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 76BCBEB51A001B4F00260051;
+					};
+				};
+			};
+			buildConfigurationList = 76BCBEB11A001B4F00260051 /* Build configuration list for PBXProject "SchoolBusTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76BCBEAD1A001B4F00260051;
+			productRefGroup = 76BCBEB71A001B4F00260051 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76BCBEB51A001B4F00260051 /* SchoolBusTimer */,
+				76BCBED11A001B4F00260051 /* SchoolBusTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76BCBEB41A001B4F00260051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76BCBEC81A001B4F00260051 /* Main.storyboard in Resources */,
+				76BCBECD1A001B4F00260051 /* LaunchScreen.xib in Resources */,
+				76BCBECA1A001B4F00260051 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76BCBED01A001B4F00260051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76BCBEB21A001B4F00260051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76BCBEBF1A001B4F00260051 /* AppDelegate.m in Sources */,
+				76BCBEC21A001B4F00260051 /* SchoolBusTimer.xcdatamodeld in Sources */,
+				76BCBEC51A001B4F00260051 /* ViewController.m in Sources */,
+				76BCBEBC1A001B4F00260051 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76BCBECE1A001B4F00260051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76BCBED91A001B4F00260051 /* SchoolBusTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76BCBED41A001B4F00260051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76BCBEB51A001B4F00260051 /* SchoolBusTimer */;
+			targetProxy = 76BCBED31A001B4F00260051 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76BCBEC61A001B4F00260051 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76BCBEC71A001B4F00260051 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76BCBECB1A001B4F00260051 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76BCBECC1A001B4F00260051 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76BCBEDA1A001B4F00260051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		76BCBEDB1A001B4F00260051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76BCBEDD1A001B4F00260051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SchoolBusTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76BCBEDE1A001B4F00260051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SchoolBusTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76BCBEE01A001B4F00260051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SchoolBusTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchoolBusTimer.app/SchoolBusTimer";
+			};
+			name = Debug;
+		};
+		76BCBEE11A001B4F00260051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SchoolBusTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchoolBusTimer.app/SchoolBusTimer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76BCBEB11A001B4F00260051 /* Build configuration list for PBXProject "SchoolBusTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76BCBEDA1A001B4F00260051 /* Debug */,
+				76BCBEDB1A001B4F00260051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76BCBEDC1A001B4F00260051 /* Build configuration list for PBXNativeTarget "SchoolBusTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76BCBEDD1A001B4F00260051 /* Debug */,
+				76BCBEDE1A001B4F00260051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76BCBEDF1A001B4F00260051 /* Build configuration list for PBXNativeTarget "SchoolBusTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76BCBEE01A001B4F00260051 /* Debug */,
+				76BCBEE11A001B4F00260051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		76BCBEC01A001B4F00260051 /* SchoolBusTimer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				76BCBEC11A001B4F00260051 /* SchoolBusTimer.xcdatamodel */,
+			);
+			currentVersion = 76BCBEC11A001B4F00260051 /* SchoolBusTimer.xcdatamodel */;
+			path = SchoolBusTimer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 76BCBEAE1A001B4F00260051 /* Project object */;
+}
